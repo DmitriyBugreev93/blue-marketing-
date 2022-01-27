@@ -1,0 +1,128 @@
+@media(max-width: 1330px) {
+    header {
+        margin-top: 100px;
+    }
+    .nav {
+        flex-direction: row;
+        width: 100%;
+        height: 100px;
+        align-items: center;
+        background: rgba(255, 255, 255, .8);
+        backdrop-filter: blur(10px);
+    }
+    .header-list {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+    .header-list a {
+        margin-bottom: 0;
+    }
+    .header-ava {
+        padding-right: 20px;
+    }
+    .nav:hover {
+        width: 100%;
+    }
+}
+@media(max-width: 1130px) {
+    .services {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 65%;
+        justify-content: space-evenly;
+    }
+    .services-card:nth-child(1),
+    .services-card:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    .info-left {
+        max-width: 100%;
+    }
+    .info-desc, .info-content {
+        height: max-content;
+    }
+    .info-desc p {
+        margin-bottom: 15px;
+    }
+    .info-title {
+        padding-left: 0;
+        text-align: center;
+    }
+    .info-right aside {
+        max-width: 100%;
+    }
+    .info-content {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .info-card {
+        max-width: 40%;
+        margin-bottom: 15px;
+    }
+    .wrapper {
+        padding-bottom: 29px;
+    }
+}
+@media(max-width: 992px) {
+    .header-list .fal {
+        display: none;
+    }
+}
+@media(max-width: 870px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-card:nth-child(3) {
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 630px) {
+    .header {
+        padding-left: 30px;
+    }
+    .header-list {
+        flex-direction: column;
+    }
+    .info {
+        justify-content: center;
+    }
+    .info-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-card {
+        max-width: 100%;
+    }
+    .footer-content {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .footer-links {
+        align-items: center;
+    }
+}
+@media(max-width: 400px) {
+    .header-title {
+        font-size: 38px;
+    }
+    .header-title::before {
+        width: 65px;
+        height: 40px;
+    }
+    .header-desc {
+        text-align: center;
+    }
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-logo {
+        font-size: 40px;
+    }
+    .header {
+        padding-left: 20px;
+    }
+}
